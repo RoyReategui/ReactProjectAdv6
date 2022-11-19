@@ -17,6 +17,12 @@ export const Navigation = () => {
                             </li>
                         ))
                     }
+                    {
+                    /* 
+                        <li>
+                            <NavLink to="/Lazy3" className={ ({ isActive })=> isActive? 'nav-active':''} >Lazy3</NavLink>
+                        </li> 
+                    */}
                 </nav>
 
                 <Routes>
@@ -31,6 +37,7 @@ export const Navigation = () => {
                         ))
                     }
                     {/* replace es para que la persona no se vaya para atras */}
+                    {/* <Route path='Lazy3' element={ <LazyPage3 />  }  ></Route> */}
                     <Route path='/*' element={ <Navigate to={ routes[0].to } replace /> }  ></Route>
 
                 </Routes>
