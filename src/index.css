@@ -26,7 +26,8 @@ nav {
   margin-right: 15px;
   overflow-y: auto;
   text-align: center;
-  width: 250px;
+  min-width: 250px;
+  max-width: 250px;
 }
 nav ul {
   align-items: center;

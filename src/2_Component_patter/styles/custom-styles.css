@@ -1,0 +1,23 @@
+.bg-dark{
+    background-color: rgba(56,56,56);
+}
+.p10{
+    padding: 10px;
+}
+
+.text-white{
+    color: white;
+}
+
+.custom-image{
+    border-radius: 10px ;
+}
+.text-bold{
+    font-weight: bold;
+}
+
+.custom-buttons button {
+    background-color: inherit;
+    color: white;
+    border-color: white;
+}

@@ -12,6 +12,7 @@ interface Route{
 
 const Lazy1 = lazy(()=> import(/*webpackChunkName:"LazyLoadPage1"*/ '../1_Lazy/LazyPage1'))
 const CoponentPattern = lazy(()=> import('../2_Component_patter/pages/ShoppingPage'))
+const ShopinPage = lazy( ()=> import('../3_Cards/pages/ShopinPage') )
 
 
 
@@ -28,5 +29,11 @@ export const routes: Route[] = [
         path : 'lazy1',
         Component : Lazy1,
         name : 'Lazy-1'
+    },
+    {
+        to : '/card',
+        path : 'card',
+        Component : ShopinPage,
+        name : 'Card Page'
     },
 ];
