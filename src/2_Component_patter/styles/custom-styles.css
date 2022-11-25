@@ -21,3 +21,10 @@
     color: white;
     border-color: white;
 }
+
+.shoping-cart{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+
+}
